@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+.header{
+  display: flex;
+  height: 70px;
+
+}
+
+.home-link{
+  padding-top: 1.5%;
+}
+
+.right-links{
+  display: flex;    
+  justify-content: space-around;
+  width: 34%;
+  padding-top: 1.5%;
+}
+
+.footer{
+
+}

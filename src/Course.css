@@ -1,0 +1,16 @@
+ul{
+    list-style-type: none;
+}
+.button-for-topics{
+    width: 88%;
+    height: 50px;
+    margin-bottom: 20px;
+
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: #fff;
+    background-color: #122be2ed;
+}

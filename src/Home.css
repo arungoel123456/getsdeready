@@ -1,0 +1,33 @@
+.upper-photo{
+    position: relative;
+    border: 1px solid black;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.upper-photo-css{
+    height: 100%;
+    width: 100%
+}
+.home-page-heading{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: (-50%,-50%);
+    font-size: 62px;
+    color: #3200f5;
+}
+
+.topics-covered{
+    display: flex;
+}
+.topics-image-box{
+    width: 50%;
+}
+.topics-image{
+    height: 100%;
+}
+.topics-list{
+    list-style-type: none;
+    text-align: left;
+}
