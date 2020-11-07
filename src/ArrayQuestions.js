@@ -253,9 +253,117 @@ const listOfQuestionsWithTopics = {
 
     'Heap' : [
         {
+
+            'N max pair combinations' : 'https://www.interviewbit.com/problems/n-max-pair-combinations/',
+            'Kth Largest Element in an Array' : 'https://leetcode.com/problems/kth-largest-element-in-an-array/',
+            'Merge k Sorted Lists' : 'https://leetcode.com/problems/merge-k-sorted-lists/',
+            'B Closest Points to Origin' : 'https://leetcode.com/problems/k-closest-points-to-origin/',
+            'Ways to form Max Heap' : 'https://www.interviewbit.com/problems/ways-to-form-max-heap/',
+            'Ath largest element' : 'https://leetcode.com/problems/kth-largest-element-in-an-array/',
+            'Magician and Chocolates' : 'https://www.interviewbit.com/problems/magician-and-chocolates/',
+        }
+    ],
+
+    'Greedy' : [
+        {
+            ' Maximize Sum Of Array After K Negations': 'https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/',
+            'Assign Mice to Holes':'https://www.interviewbit.com/problems/assign-mice-to-holes/',
+            'Seats' : 'https://www.interviewbit.com/problems/seats/' ,
+            'Meeting rooms' : 'https://www.interviewbit.com/problems/meeting-rooms/',
+            'Task Scheduler' : 'https://leetcode.com/problems/task-scheduler/' ,
+            'Kth Smallest Element in a Sorted Matrix' : 'https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/',
+
+        }
+    ],
+
+    '1D DP' : [
+        {
+            'Climbing Stairs' : 'https://leetcode.com/problems/climbing-stairs/',
+            'Length of Longest Fibonacci Subsequence' : 'https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/',
+            'Min Jumps Array' : 'https://www.interviewbit.com/problems/min-jumps-array/',
+            'Coins in a Line' : 'https://leetcode.com/problems/coin-change/',
+            'Longest Increasing Subsequence' : 'https://leetcode.com/problems/longest-increasing-subsequence/',
+            'Tiling a Rectangle with the Fewest Squares' : 'https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/',
+            'Max Sum Without Adjacent Elements' : 'https://www.interviewbit.com/problems/max-sum-without-adjacent-elements/',
+
+        }
+    ],
+
+    'Dynamic Programming II' : [
+        {
+            'Min Sum Path in Matrix' : 'https://www.interviewbit.com/problems/min-sum-path-in-matrix/',
+            'Longest Palindromic Subsequence' : 'https://leetcode.com/problems/longest-palindromic-subsequence/',
+            'Longest Common Subsequence' : 'https://leetcode.com/problems/longest-common-subsequence/',
+            'Longest Increasing Subsequence' : 'https://www.interviewbit.com/problems/longest-increasing-subsequence/',
+            'Unique Paths in a Grid' : 'https://www.interviewbit.com/problems/unique-paths-in-a-grid/',
+            'Coin Sum Infinite' :'https://www.interviewbit.com/problems/coin-sum-infinite/' ,
+            'Coins in a Line' : 'https://www.interviewbit.com/problems/coins-in-a-line/',
+
+        }
+    ],
+
+    'Dynamic Programming III' : [
+        {
+            'Edit Distance' : 'https://leetcode.com/problems/edit-distance/',
+            'Regular Expression Match' : 'https://www.interviewbit.com/problems/regular-expression-match/',
+            'Regular Expression II' : 'https://www.interviewbit.com/problems/regular-expression-ii/',
+            'Interleaving Strings' : 'https://leetcode.com/problems/interleaving-string/',
+            'Unique Binary Search Trees II' : 'https://leetcode.com/problems/unique-binary-search-trees-ii',
+            'Tushars Birthday Party' : 'https://www.interviewbit.com/problems/tushars-birthday-party/',
+            'Distinct Subsequences' : 'https://leetcode.com/problems/distinct-subsequences',
+        }
+    ],
+
+    'Dynamic Programming IV' : [
+        {
+            'Palindrome Partitioning II' : 'https://leetcode.com/problems/palindrome-partitioning-ii' ,
+            'Word Break': 'https://leetcode.com/problems/word-break',
+            'Longest Palindromic Substring' : 'https://leetcode.com/problems/longest-palindromic-substring',
+            'Word Break II' : 'https://www.interviewbit.com/problems/word-break-ii/',
+            'Russian Doll Envelopes' : 'https://leetcode.com/problems/russian-doll-envelopes',
+        }
+    ],
+
+    'Graph I' : [
+        {
+            'Rotting Oranges' : 'https://leetcode.com/problems/rotting-oranges/',
+            'Capture Regions on Board' : 'https://www.interviewbit.com/problems/capture-regions-on-board/',
+            'Black Shapes' : 'https://www.interviewbit.com/problems/black-shapes/',
+            'Smallest Multiple With 0 and 1' : 'https://www.interviewbit.com/problems/smallest-multiple-with-0-and-1/',
+            'Number of islands' : 'https://leetcode.com/problems/number-of-islands/',
+        }
+    ],
+
+    'Graph II' : [
+        {
+            'Possibility of finishing all courses given pre-requisites' : 'https://www.interviewbit.com/problems/possibility-of-finishing-all-courses-given-prerequisites/',
+            'Commutable Islands' : 'https://www.interviewbit.com/problems/commutable-islands/' ,
+            'Knight On Chess Board' : 'https://www.interviewbit.com/problems/knight-on-chess-board/',
+            'Dijkstra' : 'https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/',
+            'Word Ladder I' : 'https://leetcode.com/problems/word-ladder/' ,
+            'Word Ladder II' : 'https://leetcode.com/problems/word-ladder-ii',
+            'Is Graph Bipartite?' : 'https://leetcode.com/problems/is-graph-bipartite/',
+        }
+    ],
+
+    'Trie' : [
+        {
+            'Shortest Unique Prefix' : 'https://www.interviewbit.com/problems/shortest-unique-prefix/' ,
+            'Maximum XOR of Two Numbers in an Array' : 'https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/',
+            'Subarrays Xor Less Than B' : 'https://www.geeksforgeeks.org/subarray-xor-less-k/',
+        }
+    ],
+
+    'Segment Tree' : [
+        {
+            'Good Ranges' : 'https://www.hackerearth.com/problem/algorithm/the-good-ranges-1456e1a2-e908a292/',
+            'Falling Squares' : 'https://leetcode.com/problems/falling-squares/' ,
+            'Bob and Queries' : 'https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/practice-problems/algorithm/shivam-and-expensive-birthday-gift-da58b2f0/',
             
         }
     ]
+
+    
 
 
 }

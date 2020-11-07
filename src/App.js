@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useEffect} from 'react';
 import './App.css';
 
 import {
@@ -8,8 +8,21 @@ import Course from "./Course";
 import Home from "./Home"
 import ContactUs from './ContactUs';
 import DisplayAllQuestionsOfTopic from './DisplayAllQuestionsOfTopic';
+import Team from './Team';
+import JobApplicationShow from './JobApplicationsShow';
+import DisplayAllApplicationsOfCompany from './DisplayAllApplicationsOfCompany';
+import Signin from './Signin';
+import dashboard from './Dashboard';
 
 function App() {
+
+  useEffect(() => {
+    document.title = "getsdeready"
+  }, [])
+
+  const signedIn = false
+  
+
   return (
     <div className="App">
       <Router>
@@ -27,8 +40,20 @@ function App() {
               <NavLink to="/contactUs" >
                 Contact us
               </NavLink>
+              <NavLink to="/team" >
+                Team
+              </NavLink>
+              <NavLink to="/jobApplicationsShow" >
+                Job Applications
+              </NavLink>
+              {
+
+              }
+              <NavLink to="/signin" >
+                SignIn
+              </NavLink>
             
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDr70dUWi3i4Ny41KIBO2tLuBIPXSs3LIZ53XQFX7OzG2RCw/viewform?usp=sf_link" > Buy </a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDr70dUWi3i4Ny41KIBO2tLuBIPXSs3LIZ53XQFX7OzG2RCw/viewform?usp=sf_link" > Register </a>
               {/* <td onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSdDr70dUWi3i4Ny41KIBO2tLuBIPXSs3LIZ53XQFX7OzG2RCw/viewform?usp=sf_link" , "_blank") } >Buy</td> */}
             </div>
           </div>
@@ -39,6 +64,11 @@ function App() {
             <Route path="/course" component = {Course}  />
             <Route path="/contactUs" component = {ContactUs} />
             <Route path="/displayAllQuestionsOfTopic" component = {DisplayAllQuestionsOfTopic} />
+            <Route path="/team" component = {Team}  />
+            <Route path="/jobApplicationsShow" component = {JobApplicationShow}  />
+            <Route path="/displayAllApplicationsOfCompany" component = {DisplayAllApplicationsOfCompany} />
+            <Route path="/signin" component={Signin} />
+            <Route path="/dashboard" component={dashboard} />
           </Switch>
         </div>
         <div id="footer" >
